@@ -1,27 +1,35 @@
 {
-  "name": "colorful-sepia-theme",
-  "displayName": "Colorful Sepia Theme",
-  "description": "A colorful sepia theme for VSCode",
-  "publisher": "mateidragony",
-  "icon": "./icon.png",
-  "version": "0.0.3",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mateidragony/colorful-sepia-theme"
-  },
-  "engines": {
-    "vscode": "^1.98.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Colorful Sepia Theme",
-        "uiTheme": "vs",
-        "path": "./themes/Colorful Sepia Theme-color-theme.json"
-      }
-    ]
-  }
+	"name": "colorful-vscode-themes",
+	"displayName": "Colorful Vscode Themes",
+	"description": "Colorful themes for VSCode",
+	"publisher": "mateidragony",
+	"icon": "icon.png",
+	"version": "0.0.3",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mateidragony/colorful-vscode-themes"
+	},
+	"engines": {
+		"vscode": "^1.98.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Colorful Sepia Theme",
+				"uiTheme": "vs",
+				"path": "./themes/Colorful Sepia Theme-color-theme.json"
+			},
+			{
+				"label": "Colorful Dark Theme",
+				"uiTheme": "vs",
+				"path": "./themes/Colorful Dark Theme-color-theme.json"
+			}
+		]
+	},
+	"dependencies": {
+		"vsce": "^2.15.0"
+	}
 }

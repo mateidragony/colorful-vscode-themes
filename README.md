@@ -1,18 +1,12 @@
-# Colorful Sepia Theme
+# Colorful Vscode Themes
 
-A high saturation, colorful sepia theme for VSCode.
+Some high saturation, colorful themes for VSCode.
+Includes sepia and dark themes.
 
 ## Screenshots
 
+Sepia theme
 ![Sepia theme screenshot](./screenshots/screenshot-1.png)
-
-## Installation
-
-1. Open the extensions sidebar on Visual Studio Code
-2. Search for `Colorful Sepia Theme`
-3. Click Install
-4. Click Reload to reload your editor
-5. Select the Manage Cog (bottom left) > `Color Theme` ＞ `Theme`
 
 ## Tweaks & theming
 If you want to play around with new colors, use the setting workbench.colorCustomizations to customize the currently selected theme. For example, you can add this snippet in your "settings.json" file:
